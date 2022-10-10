@@ -1,0 +1,115 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: content-box;
+}
+body{
+    margin: 0rem,2rem;
+}
+a{ 
+    font-weight:bold;
+    font-size: 1.2rem;
+     text-decoration:none;
+    /* to remove underline in anchor */
+ } 
+
+ li{ 
+     list-style: none; 
+    /* to remove dot in infront of li elements */
+
+} 
+a:link{
+    color: black;
+
+}
+a:visited{
+
+    color: black;
+}
+a:hover{
+    color: red;
+
+}
+a:active{
+    color:red;
+
+}
+
+.footer_parent{
+
+    /* vertically center */
+    height: 5rem;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    /*it is perfectly centerd a div */
+    align-items: center;
+    justify-content: center;
+
+}
+.footer_content{
+    color: white;
+    /*boldness  */
+    font-weight: 600;
+    font-size: 1.6rem;
+    /* enforce uppercase */
+    text-transform: uppercase;
+
+
+}
+.parent{
+    /* border:10px  solid red; */
+    display: flex;
+    margin-top: 2rem;
+    /* text inside that parent will be centerd*/
+    text-align: center;
+    /* space evenly gives the space to 
+    all child  */
+    justify-content: space-evenly;
+}
+
+.child{
+    /* border:10px solid blue*/
+    /* it gives the equaly distance to all 
+    the child of all the child */
+    width: 30%;
+}
+
+
+header{
+    /* flex used here for vertical content turn into
+    horizontal */
+    display: flex;
+    /* manages spacehorizontally betewen
+     horizontaly */
+    justify-content: space-between;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width:20rem ;
+
+}
+header h1{
+    margin-left: 2rem;
+}
+nav{
+    margin-right: 1rem;
+
+}
+
+ul>li{
+    /* it works on li give eqal space */
+    width: 30%;
+    font-size: 1.5rem;
+}
+/* main image */
+/* dont crame just copy paste it is alwas used */
+/* it used to make image responsive 
+thre this image take same width as browser  */
+.main-image{
+    width: 100%;
+    height: auto;
+
+}

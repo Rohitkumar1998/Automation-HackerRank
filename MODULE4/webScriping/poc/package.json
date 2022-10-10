@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "am": "^1.1.0",
+    "jsdom": "^19.0.0",
+    "puppeteer": "^14.4.1",
+    "puppeteers": "^0.0.10",
+    "request": "^2.88.2"
+  }
+}
